@@ -5,24 +5,27 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    [Header("Movement Stuff")]
     public float playerSpeed = 3f;
     public Vector2 movementInput;
 
+    [Header("Shooting Stuff")]
     public Transform shootingPoint;
     public GameObject bulletPrefab;
-    private float shootDelay = 0.1f;
+    private float shootDelay = 0.5f;
     private bool allowShooting;
 
     [SerializeField] private InputActionReference Shoot;
 
+    private void Start()
+    {
+        allowShooting = true;
+    }
     private void Update()
     {
         transform.Translate(new Vector2(movementInput.x, movementInput.y) * playerSpeed * Time.deltaTime);
 
-        if (Shoot.action.WasPressedThisFrame())
-        {
-            ShootGun();
-        }
+        print(allowShooting);
     }
 
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();
@@ -33,12 +36,12 @@ public class Player : MonoBehaviour
         {
             Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
             StartCoroutine(ShootDelay());
-            Debug.Log("Player Shooting!");
+            Debug.Log("bullet Fired!!!");
         }
 
         else
         {
-            Debug.Log("Player Cannot Shoot");
+            Debug.Log("Can't Shoot!");
         }
     }
 
@@ -47,6 +50,7 @@ public class Player : MonoBehaviour
         allowShooting = false;
         yield return new WaitForSeconds(shootDelay);
         allowShooting = true;
+        Debug.Log("Player Can Shoot");
     }
 
 
