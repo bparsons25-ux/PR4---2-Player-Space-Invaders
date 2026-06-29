@@ -4,22 +4,48 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputHandler : MonoBehaviour
 {
-    private Player player;
-    private PlayerInput PlayerInput;
+    [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private Transform[] spawnPoints;
 
-    private void Awake()
+    private bool player1Joined = false;
+    private bool player2Joined = false;
+
+    public GameObject pressCtrlToStart;
+    public GameObject pressSpaceToStart;
+
+    private void Start()
     {
-        PlayerInput = GetComponent<PlayerInput>();
-        var Players = FindObjectsOfType<Player>();
-        var index = PlayerInput.playerIndex;
-        player = Players.FirstOrDefault(p => p.GetPlayerIndex() == index);
+        pressCtrlToStart.gameObject.SetActive(true);
+        pressSpaceToStart.gameObject.SetActive(true);
     }
-
-    public void OnMove(InputAction.CallbackContext ctx)
+    private void Update()
     {
-        //player.SetInputVector(ctx.ReadValue<Vector2>());
+        if (Keyboard.current == null) return;
+
+        if (!player1Joined && Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            var player = PlayerInput.Instantiate(playerPrefab, controlScheme: "Keyboard", pairWithDevice: Keyboard.current);
+
+            if (spawnPoints.Length > 0)
+            {
+                player.transform.position = spawnPoints[0].position; // sets the player position to equals a spawn point
+            }
+
+            player1Joined = true;
+            pressSpaceToStart.gameObject.SetActive(false);
+        }
+
+        if (!player2Joined && Keyboard.current.rightCtrlKey.wasPressedThisFrame)
+        {
+            var player = PlayerInput.Instantiate(playerPrefab, controlScheme: "Arrows", pairWithDevice: Keyboard.current);
+
+            if (spawnPoints.Length > 1)
+            {
+                player.transform.position = spawnPoints[1].position; // sets the player position to equals a spawn point
+            }
+
+            player2Joined = true;
+            pressCtrlToStart.gameObject.SetActive(false);
+        }
     }
-
-
-
 }
