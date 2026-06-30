@@ -10,6 +10,8 @@ TagManager:
   - left barrier
   - right barrier
   - Invaders
+  - leftBarrier
+  - rightBarrier
   layers:
   - Default
   - TransparentFX

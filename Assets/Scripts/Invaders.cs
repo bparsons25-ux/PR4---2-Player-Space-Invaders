@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Invaders : MonoBehaviour
 {
-
-    public float invaderSpeed;
+    public static float invaderSpeed = 0.5f;
     public float invaderShootCooldown;
 
     public bool touchedeftBarrier;
@@ -17,9 +16,8 @@ public class Invaders : MonoBehaviour
     private void Start()
     {
         // starts the game off with the invaders moving left to right
-        touchedRightBarrier = false;
-        touchedeftBarrier = true;
 
+        invaderSpeed = 0.25f;
         isGoingDown = true;
     }
 
@@ -48,7 +46,7 @@ public class Invaders : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("left barrier"))
+        if (collision.gameObject.tag == "leftBarrier")
         {
             touchedeftBarrier = true;
             Debug.Log("Touched Left Barrier!");
@@ -65,7 +63,7 @@ public class Invaders : MonoBehaviour
             }
         }
 
-        if (collision.gameObject.CompareTag("right barrier"))
+        if (collision.gameObject.tag == "rightBarrier")
         {
             touchedRightBarrier = true;
             Debug.Log("Touched Right Barrier!");
@@ -80,6 +78,11 @@ public class Invaders : MonoBehaviour
             {
                 MoveUp();
             }
+        }
+
+        if (collision.gameObject)
+        {
+            Debug.Log("collided with:" + collision.gameObject);
         }
     }
 

@@ -17,9 +17,22 @@ public class Player : MonoBehaviour
 
     [SerializeField] private InputActionReference Shoot;
 
+    Renderer ren;
+
     private void Start()
     {
         allowShooting = true;
+        ren = GetComponent<SpriteRenderer>();
+
+        if (PlayerInputHandler.player1Joined == true)
+        {
+            ren.material.color = Color.red;
+        }
+
+        if (PlayerInputHandler.player2Joined == true)
+        {
+            ren.material.color= Color.green;
+        }
     }
     private void Update()
     {

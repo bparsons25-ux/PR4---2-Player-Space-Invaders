@@ -8,13 +8,15 @@ public class PlayerInputHandler : MonoBehaviour
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private Transform[] spawnPoints;
 
-    private bool player1Joined = false;
-    private bool player2Joined = false;
+    public static bool player1Joined = false;
+    public static bool player2Joined = false;
 
     public GameObject pressCtrlToStart;
     public GameObject pressSpaceToStart;
 
     public static bool gameHasStarted;
+
+    public static int playerCount;
 
     private void Start()
     {
