@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - left barrier
   - right barrier
+  - Invaders
   layers:
   - Default
   - TransparentFX

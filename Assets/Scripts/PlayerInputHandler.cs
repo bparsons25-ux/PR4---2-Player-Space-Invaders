@@ -1,4 +1,5 @@
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,6 +13,8 @@ public class PlayerInputHandler : MonoBehaviour
 
     public GameObject pressCtrlToStart;
     public GameObject pressSpaceToStart;
+
+    public static bool gameHasStarted;
 
     private void Start()
     {
@@ -47,6 +50,14 @@ public class PlayerInputHandler : MonoBehaviour
 
             player2Joined = true;
             pressCtrlToStart.gameObject.SetActive(false);
+        }
+
+        if (player1Joined == true || player2Joined == true)
+        {
+            if (player2Joined == true || player1Joined == true)
+            {
+                gameHasStarted = true;
+            }
         }
     }
 }
