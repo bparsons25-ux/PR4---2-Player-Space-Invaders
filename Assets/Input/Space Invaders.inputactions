@@ -81,7 +81,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "left",
+                    "name": "Right",
                     "id": "5886e5cc-559e-4923-b6b0-1908552dbe34",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
@@ -92,7 +92,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "right",
+                    "name": "Left",
                     "id": "ddf2f928-52c5-4064-b2cf-04d81a4abaa4",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",

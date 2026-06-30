@@ -42,6 +42,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (spawnPoints.Length > 1)
             {
                 player.transform.position = spawnPoints[1].position; // sets the player position to equals a spawn point
+                player.transform.rotation = spawnPoints[1].rotation; // sets the player rotation to the same as the spawn points rotation
             }
 
             player2Joined = true;
