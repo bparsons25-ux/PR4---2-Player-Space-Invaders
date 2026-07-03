@@ -12,17 +12,18 @@ public class Player : MonoBehaviour
     [Header("Shooting Stuff")]
     public Transform shootingPoint;
     public GameObject bulletPrefab;
-    private float shootDelay = 0.5f;
+    private float shootDelay = 0.75f;
     private bool allowShooting;
 
     [SerializeField] private InputActionReference Shoot;
 
-    Renderer ren;
+    public Renderer ren;
+    [SerializeField] private GameObject Sprite;
 
     private void Start()
     {
         allowShooting = true;
-        ren = GetComponent<SpriteRenderer>();
+        ren = Sprite.gameObject.GetComponent<Renderer>();
 
         if (PlayerInputHandler.player1Joined == true)
         {

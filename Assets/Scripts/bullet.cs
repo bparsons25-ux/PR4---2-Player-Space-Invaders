@@ -1,9 +1,13 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class bullet : MonoBehaviour
 {
     public float shootingSpeed = 3;
     private Rigidbody2D rb;
+
+    public GameObject player1Bullet;
+    public GameObject player2Bullet;
 
     private void Start()
     {
@@ -21,6 +25,16 @@ public class bullet : MonoBehaviour
             // Add Points Here????
             // Play Shoot SFX
         }
+
+        if (collision.CompareTag("BunkerPart"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+
     }
+
+
+ 
 
 }

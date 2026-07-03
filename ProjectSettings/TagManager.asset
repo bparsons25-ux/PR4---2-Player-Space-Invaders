@@ -12,6 +12,9 @@ TagManager:
   - Invaders
   - leftBarrier
   - rightBarrier
+  - player1Bullet
+  - player2Bullet
+  - BunkerPart
   layers:
   - Default
   - TransparentFX

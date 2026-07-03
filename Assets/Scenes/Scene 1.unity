@@ -263,33 +263,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.14879274
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1419,33 +1395,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 0.7735849
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.003648994
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0.60711455
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2536,33 +2488,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.14879274
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3087,33 +3015,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 0.7735849
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.003648994
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0.60711455
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5023,33 +4927,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 0.7735849
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.003648994
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0.60711455
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5841,33 +5721,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.14879274
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7014,33 +6870,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.14879274
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7542,33 +7374,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.b
-      value: 0.7735849
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.003648994
-      objectReference: {fileID: 0}
-    - target: {fileID: 251393475054904872, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_Color.r
-      value: 0.60711455
-      objectReference: {fileID: 0}
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
