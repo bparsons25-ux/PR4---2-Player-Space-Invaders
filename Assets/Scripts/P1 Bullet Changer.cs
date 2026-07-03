@@ -3,14 +3,17 @@ using UnityEngine;
 public class P2BulletChanger : MonoBehaviour
 {
     public GameObject player2Bullet;
-    public Transform bulletPos2;
+    public Transform bulletSpawnPos;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
         {
-           Instantiate(player2Bullet, bulletPos2.transform.position, transform.rotation);
-            Debug.Log("Player 2 Bullet is changed!");
+            if (collision.gameObject.CompareTag("Bullet"))
+            {
+                Instantiate(player2Bullet);
+                Destroy(collision.gameObject);
+                Debug.Log("Player 2 Bullet is changed!");
+            }
+            }
         }
-    }
 }

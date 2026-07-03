@@ -193,7 +193,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -1, w: -0.0000007599591}
   m_LocalPosition: {x: 0, y: 7.5, z: 0}
-  m_LocalScale: {x: 47, y: 0.1, z: 1}
+  m_LocalScale: {x: 1.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player2Bullet: {fileID: 4400154881682536643, guid: a3e83876dab9d9a40b74a7eb9bec4e49, type: 3}
-  bulletPos2: {fileID: 1133231274723756799, guid: a3e83876dab9d9a40b74a7eb9bec4e49, type: 3}
+  bulletSpawnPos: {fileID: 8582169}
 --- !u!1 &55036372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,8 +2569,8 @@ Transform:
   m_GameObject: {fileID: 811900581}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.5, z: 0}
-  m_LocalScale: {x: 47, y: 0.1, z: 1}
+  m_LocalPosition: {x: 0, y: -9.5, z: 0}
+  m_LocalScale: {x: 1.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2588,7 +2588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1Bullet: {fileID: 4400154881682536643, guid: 3506696dc4005564f9037e8ed8a17fc6, type: 3}
-  bulletPos: {fileID: 1133231274723756799, guid: 3506696dc4005564f9037e8ed8a17fc6, type: 3}
+  bulletSpawnPos: {fileID: 811900583}
 --- !u!1 &813201095
 GameObject:
   m_ObjectHideFlags: 0
@@ -4030,7 +4030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1231672893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4556,6 +4556,8 @@ MonoBehaviour:
   - {fileID: 921820418}
   pressCtrlToStart: {fileID: 1299591670}
   pressSpaceToStart: {fileID: 1048337406}
+  player1BulletTransformer: {fileID: 811900581}
+  player2BulletTransformer: {fileID: 8582167}
 --- !u!1001 &1289338597
 PrefabInstance:
   m_ObjectHideFlags: 0

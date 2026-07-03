@@ -18,6 +18,9 @@ public class PlayerInputHandler : MonoBehaviour
 
     public static int playerCount;
 
+    public GameObject player1BulletTransformer;
+    public GameObject player2BulletTransformer;
+
     private void Start()
     {
         pressCtrlToStart.gameObject.SetActive(true);
@@ -34,6 +37,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (spawnPoints.Length > 0)
             {
                 player.transform.position = spawnPoints[0].position; // sets the player position to equals a spawn point
+                player1BulletTransformer.transform.parent = player.transform;
             }
 
             player1Joined = true;
@@ -48,6 +52,7 @@ public class PlayerInputHandler : MonoBehaviour
             {
                 player.transform.position = spawnPoints[1].position; // sets the player position to equals a spawn point
                 player.transform.rotation = spawnPoints[1].rotation; // sets the player rotation to the same as the spawn points rotation
+                player2BulletTransformer.transform.parent = player.transform;
             }
 
             player2Joined = true;

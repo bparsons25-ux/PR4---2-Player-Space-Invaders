@@ -6,13 +6,11 @@ public class bullet : MonoBehaviour
     public float shootingSpeed = 3;
     private Rigidbody2D rb;
 
-    public GameObject player1Bullet;
-    public GameObject player2Bullet;
-
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         rb.linearVelocity = transform.up * shootingSpeed;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

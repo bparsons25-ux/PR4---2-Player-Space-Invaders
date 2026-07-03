@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2865900658977119554}
   - component: {fileID: 1042655097697417115}
   - component: {fileID: 830114638195834210}
-  - component: {fileID: 5205552807532826049}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -103,9 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a36028af27fff38499e17028c425a7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootingSpeed: 8
-  player1Bullet: {fileID: 0}
-  player2Bullet: {fileID: 0}
+  shootingSpeed: 12
 --- !u!61 &1042655097697417115
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -136,7 +133,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -179,18 +176,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!114 &5205552807532826049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4400154881682536643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a36028af27fff38499e17028c425a7d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shootingSpeed: 6
-  player1Bullet: {fileID: 0}
-  player2Bullet: {fileID: 0}
