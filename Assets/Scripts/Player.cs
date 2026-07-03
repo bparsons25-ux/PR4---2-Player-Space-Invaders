@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     [Header("Shooting Stuff")]
     public Transform shootingPoint;
     public GameObject bulletPrefab;
-    private float shootDelay = 0.75f;
+    private float shootDelay = 0.5f;
     private bool allowShooting;
 
     [SerializeField] private InputActionReference Shoot;
