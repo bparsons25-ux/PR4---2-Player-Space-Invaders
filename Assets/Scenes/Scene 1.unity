@@ -530,6 +530,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3547764044109559030, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
   m_PrefabInstance: {fileID: 169177152}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &181451824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181451825}
+  m_Layer: 0
+  m_Name: Row 4 Shooting Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181451825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181451824}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1336124472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &188562213
 GameObject:
   m_ObjectHideFlags: 0
@@ -5355,6 +5386,7 @@ Transform:
   - {fileID: 1675810979}
   - {fileID: 1565761184}
   - {fileID: 949083144}
+  - {fileID: 181451825}
   m_Father: {fileID: 1705358494}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1001 &1362461752
@@ -8521,7 +8553,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -5972883821975114401, guid: b6a53a61557851147b54346aded71a5a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
