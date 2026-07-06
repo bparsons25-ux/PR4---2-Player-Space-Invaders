@@ -60,16 +60,6 @@ public class PlayerInputHandler : MonoBehaviour
             pressCtrlToStart.gameObject.SetActive(false);
         }
 
-
-        if (player1Joined == true || player2Joined == true)
-        {
-            if (player2Joined == true || player1Joined == true)
-            {
-                gameHasStarted = true;
-            }
-        }
-
-
         foreach (var gamePad in Gamepad.all)
         {
             if (!player3Joined && gamePad.buttonSouth.wasPressedThisFrame)
@@ -77,8 +67,17 @@ public class PlayerInputHandler : MonoBehaviour
                 var player = PlayerInput.Instantiate(playerPrefab, controlScheme: "Gamepad", pairWithDevice: gamePad);
 
                 player3Joined = true;
+                player1Joined = true;
+                pressSpaceToStart.gameObject.SetActive(false);
             }
+        }
 
+        if (player1Joined == true || player2Joined == true)
+        {
+            if (player1Joined == true || player2Joined == true)
+            {
+                gameHasStarted = true;
+            }
         }
     }
 }

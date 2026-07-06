@@ -15,6 +15,7 @@ TagManager:
   - player1Bullet
   - player2Bullet
   - BunkerPart
+  - player
   layers:
   - Default
   - TransparentFX

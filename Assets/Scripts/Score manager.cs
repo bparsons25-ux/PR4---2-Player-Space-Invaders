@@ -9,10 +9,17 @@ public class Scoremanager : MonoBehaviour
     public float player1Score;
     public float player2Score;
 
+    public float player1RoundScore;
+    public float player2RoundScore;
+
     private void Start()
     {
         player1Score = 0;
         player2Score = 0;
+
+        player1RoundScore = 0;
+        player2RoundScore = 0;
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Update()

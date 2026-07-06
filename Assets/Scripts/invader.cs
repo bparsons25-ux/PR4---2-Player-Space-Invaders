@@ -45,6 +45,11 @@ public class invader : MonoBehaviour
                 scoremanager.Player2invaderType3();
             }
         }
+
+        if (collision.gameObject.CompareTag("BunkerPart"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
 }

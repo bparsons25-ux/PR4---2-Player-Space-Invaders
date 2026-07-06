@@ -403,9 +403,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1771345062}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+--- !u!4 &78444548 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+  m_PrefabInstance: {fileID: 78444547}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &157463227
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (5)
@@ -503,6 +515,10 @@ PrefabInstance:
     - target: {fileID: 5661105291586479209, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -597,6 +613,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (2)
@@ -750,6 +770,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -798,6 +822,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -820,7 +848,7 @@ GameObject:
   - component: {fileID: 232082548}
   - component: {fileID: 232082547}
   m_Layer: 5
-  m_Name: 'Player 2 Header '
+  m_Name: Player 1 Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1027,6 +1055,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1075,6 +1107,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1093,6 +1129,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (4)
@@ -1203,9 +1243,21 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682627387796045842, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682627387796045842, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1225,6 +1277,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: 'Invader Type 2 '
@@ -1273,6 +1329,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1291,6 +1351,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -1339,6 +1403,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1357,6 +1425,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -1423,6 +1495,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8
@@ -1470,6 +1546,10 @@ PrefabInstance:
     - target: {fileID: 5521515429291128095, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1590,9 +1670,17 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682627387796045842, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1643,6 +1731,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (10)
@@ -1824,6 +1916,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (1)
@@ -1890,6 +1986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (3)
@@ -1938,6 +2038,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1956,6 +2060,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -2369,6 +2477,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -2479,6 +2591,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (1)
@@ -2501,6 +2617,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -3124,6 +3244,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (10)
@@ -3171,6 +3295,10 @@ PrefabInstance:
     - target: {fileID: 5661105291586479209, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3484,6 +3612,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -3531,6 +3663,10 @@ PrefabInstance:
     - target: {fileID: 5521515429291128095, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3584,6 +3720,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -3631,6 +3771,10 @@ PrefabInstance:
     - target: {fileID: 5521515429291128095, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3786,6 +3930,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (8)
@@ -3887,7 +4035,7 @@ GameObject:
   - component: {fileID: 1123255406}
   - component: {fileID: 1123255405}
   m_Layer: 5
-  m_Name: Player 2 Header
+  m_Name: Player 2 Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4019,6 +4167,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4066,6 +4218,10 @@ PrefabInstance:
     - target: {fileID: 5521515429291128095, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4380,9 +4536,17 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682627387796045842, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4402,6 +4566,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (6)
@@ -4450,6 +4618,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4468,6 +4640,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4676,6 +4852,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (6)
@@ -4698,6 +4878,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -5238,6 +5422,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -5286,6 +5474,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5304,6 +5496,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (6)
@@ -5549,6 +5745,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (1)
@@ -5597,6 +5797,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5615,6 +5819,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (3)
@@ -5887,6 +6095,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (5)
@@ -5909,6 +6121,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (9)
@@ -6151,9 +6367,17 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682627387796045842, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6173,6 +6397,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -6239,6 +6467,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (9)
@@ -6287,6 +6519,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6305,6 +6541,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (5)
@@ -6371,6 +6611,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8
@@ -6437,6 +6681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (8)
@@ -6485,6 +6733,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6503,6 +6755,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -6551,6 +6807,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6569,6 +6829,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (7)
@@ -6778,6 +7042,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -7058,6 +7326,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -7122,19 +7394,31 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 78444548}
     m_Modifications:
     - target: {fileID: 378834068956024146, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_Name
       value: Bunker (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: -8.955223
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7146,15 +7430,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7173,6 +7457,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+--- !u!4 &1771345062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4234543166497898234, guid: 3955289d179c0d948a95fc262cba653c, type: 3}
+  m_PrefabInstance: {fileID: 1771345061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1773994936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7181,6 +7470,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813201096}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: 'Invader Type 2 '
@@ -7291,6 +7584,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (10)
@@ -7313,6 +7610,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 157463228}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -7496,6 +7797,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (2)
@@ -7543,6 +7848,10 @@ PrefabInstance:
     - target: {fileID: 5661105291586479209, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7593,6 +7902,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -7640,6 +7953,10 @@ PrefabInstance:
     - target: {fileID: 5521515429291128095, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7760,6 +8077,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (8)
@@ -7857,6 +8178,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (3)
@@ -7923,9 +8248,17 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2031528787181195590, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2606957226025964416, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
       propertyPath: m_Name
       value: Invader Type 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682627387796045842, guid: 799cc1dd8937bbf4c9cd9f982fce3558, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7945,6 +8278,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403642582}
     m_Modifications:
+    - target: {fileID: 750301523227231015, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 1419701624536265006, guid: bc777f328e141484987719d70688206b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -7993,6 +8330,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6876887593601457611, guid: bc777f328e141484987719d70688206b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8011,6 +8352,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (7)
@@ -8058,6 +8403,10 @@ PrefabInstance:
     - target: {fileID: 5661105291586479209, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8206,6 +8555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2124825792}
+  - component: {fileID: 2124825793}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -8228,6 +8578,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2124825793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124825791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32dd0ca409f76b344af09659c871a59e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1ScoreCount: {fileID: 232082547}
+  player2ScoreCount: {fileID: 1123255405}
+  player1Score: 0
+  player2Score: 0
+  player1RoundScore: 0
+  player2RoundScore: 0
 --- !u!1001 &2143788648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8236,6 +8604,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1336124472}
     m_Modifications:
+    - target: {fileID: 1243773215775605052, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: scoremanager
+      value: 
+      objectReference: {fileID: 2124825793}
     - target: {fileID: 2430309240501996595, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
       propertyPath: m_Name
       value: Invader Type 2  (4)
@@ -8284,6 +8656,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8468313786591631933, guid: ac043eee2c6aa9348a2880b374088361, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8307,7 +8683,6 @@ SceneRoots:
   - {fileID: 663876753}
   - {fileID: 856340604}
   - {fileID: 1516467119}
-  - {fileID: 1771345061}
   - {fileID: 78444547}
   - {fileID: 1362461752}
   - {fileID: 971827313}
