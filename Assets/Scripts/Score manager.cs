@@ -9,8 +9,14 @@ public class Scoremanager : MonoBehaviour
     public float player1Score;
     public float player2Score;
 
-    public float player1RoundScore;
-    public float player2RoundScore;
+    public static float player1RoundScore;
+    public static float player2RoundScore;
+
+    public GameObject player1win;
+    public GameObject player2win;
+
+    public static bool player1HasWon;
+    public static bool player2HasWon;
 
     private void Start()
     {
@@ -26,6 +32,18 @@ public class Scoremanager : MonoBehaviour
     {
         player1ScoreCount.text = "Score: " + player1Score.ToString();
         player2ScoreCount.text = "Score: " + player2Score.ToString();
+
+        if (player1HasWon == true)
+        {
+            player1win.gameObject.SetActive(true);
+            // set the restart control here
+        }
+
+        if (player2HasWon == true)
+        {
+            player2win.gameObject.SetActive(true);
+            // set the restart control here
+        }
     }
 
     public void Player1invaderType1()

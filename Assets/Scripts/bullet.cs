@@ -17,13 +17,6 @@ public class bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
-        {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
-            Debug.Log("Enemy Destroyed!");
-            // Play Shoot SFX
-        }
 
         if (collision.CompareTag("BunkerPart"))
         {
@@ -36,8 +29,16 @@ public class bullet : MonoBehaviour
             if (collision.gameObject.CompareTag("player"))
             {
                 Destroy(collision.gameObject);
-                // Display Player 1 Win pop up
+                Scoremanager.player1HasWon = true;
                 Time.timeScale = 0f;
+            }
+
+            if (collision.CompareTag("Enemy"))
+            {
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+                Debug.Log("Enemy Destroyed!");
+                // Play Shoot SFX
             }
         }   
 
@@ -47,9 +48,29 @@ public class bullet : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 Destroy(gameObject);
-                // Display Player 2 Win pop up
+                Scoremanager.player2HasWon = true;
                 Time.timeScale = 0f;
             }
+
+            if (collision.CompareTag("Enemy"))
+            {
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+                Debug.Log("Enemy Destroyed!");
+                // Play Shoot SFX
+            }
+        }
+
+        if (bulletType == 3)
+        {
+            if (collision.CompareTag("Enemy"))
+            {
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+                Debug.Log("Enemy Destroyed!");
+                // Play Shoot SFX
+            }
+
         }
     }
 

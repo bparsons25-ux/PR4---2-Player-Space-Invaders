@@ -69,6 +69,9 @@ public class PlayerInputHandler : MonoBehaviour
                 player3Joined = true;
                 player1Joined = true;
                 pressSpaceToStart.gameObject.SetActive(false);
+
+                player1BulletTransformer.transform.parent = player.transform;
+
             }
         }
 

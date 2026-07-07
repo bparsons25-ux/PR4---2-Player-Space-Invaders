@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using UnityEngine;
 
@@ -26,8 +27,10 @@ public class RandomInvaderShooting : MonoBehaviour
 
             randomWaitTime = Random.Range(3f, 5f);
             shootTimer = 0f;
+
         }
     }
+
 
 
 
