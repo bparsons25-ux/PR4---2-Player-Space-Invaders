@@ -15,17 +15,18 @@ public class Scoremanager : MonoBehaviour
     public GameObject player1win;
     public GameObject player2win;
 
+    public TextMeshProUGUI roundCounterText;
+
     public static bool player1HasWon;
     public static bool player2HasWon;
 
     private void Start()
     {
-        player1Score = 0;
-        player2Score = 0;
+        player1RoundScore = PlayerPrefs.GetFloat("player1RoundScore", 0);
+        player2RoundScore = PlayerPrefs.GetFloat("player2RoundScore", 0);
 
-        player1RoundScore = 0;
-        player2RoundScore = 0;
-        DontDestroyOnLoad(gameObject);
+        player1Score = PlayerPrefs.GetFloat("player1Score", 0);
+        player2Score = PlayerPrefs.GetFloat("player2Score", 0);
     }
 
     private void Update()
@@ -33,16 +34,34 @@ public class Scoremanager : MonoBehaviour
         player1ScoreCount.text = "Score: " + player1Score.ToString();
         player2ScoreCount.text = "Score: " + player2Score.ToString();
 
+        roundCounterText.text = player1RoundScore.ToString() + " - " + player2RoundScore.ToString();
+
+        PlayerPrefs.SetFloat("player1Score", player1Score);
+        PlayerPrefs.SetFloat("player2Score", player2Score);
+
+        PlayerPrefs.SetFloat("player1RoundScore", player1RoundScore);
+        PlayerPrefs.SetFloat("player2RoundScore", player2RoundScore);
+
         if (player1HasWon == true)
         {
             player1win.gameObject.SetActive(true);
             // set the restart control here
         }
 
+        else
+        {
+            player1win.gameObject.SetActive(false);
+        }
+
         if (player2HasWon == true)
         {
             player2win.gameObject.SetActive(true);
             // set the restart control here
+        }
+
+        else
+        {
+            player2win.gameObject.SetActive(false);
         }
     }
 

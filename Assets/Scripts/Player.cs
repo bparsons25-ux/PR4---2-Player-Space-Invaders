@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -60,7 +61,7 @@ public class Player : MonoBehaviour
 
         if (isPaused == true)
         {
-            Time.timeScale = 0f;
+            Pause();
             pauseMenu.gameObject.SetActive(true);
         }
     }
@@ -82,24 +83,71 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Restart()
+    {
+        if (Scoremanager.player1HasWon == true)
+        {
+            Time.timeScale = 1f;
+            Scoremanager.player1RoundScore++;
+            Scoremanager.player1HasWon = false;
+            Scoremanager.player2HasWon = false;
+
+            PlayerInputHandler.gameHasStarted = false;
+            PlayerInputHandler.player1Joined = false;
+            PlayerInputHandler.player2Joined = false;
+            PlayerInputHandler.player3Joined = false;
+
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (Scoremanager.player2HasWon == true)
+        {
+            Time.timeScale = 1f;
+            Scoremanager.player2RoundScore++;
+            Scoremanager.player1HasWon = false;
+            Scoremanager.player2HasWon = false;
+
+            PlayerInputHandler.gameHasStarted = false;
+            PlayerInputHandler.player1Joined = false;
+            PlayerInputHandler.player2Joined = false;
+            PlayerInputHandler.player3Joined = false;
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    public void DebugReset()
+    {
+        Time.timeScale = 1f;
+        Scoremanager.player1HasWon = false;
+        Scoremanager.player2HasWon = false;
+
+        PlayerInputHandler.gameHasStarted = false;
+        PlayerInputHandler.player1Joined = false;
+        PlayerInputHandler.player2Joined = false;
+        PlayerInputHandler.player3Joined = false;
+
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void Pause()
     {
-        if (canPause == true)
+        if (isPaused == true)
         {
-            if (isPaused == true)
-            {
-                isPaused = false;
-                Time.timeScale = 1f;
-                print(isPaused);
-                StartCoroutine(PauseWait());
-            }
+            isPaused = false;
+            Time.timeScale = 1f;
+            print(isPaused);
+            StartCoroutine(PauseWait());
+        }
 
-            if (isPaused == false)
-            {
-                isPaused = true;
-                StartCoroutine(pauseDelay());
-                print(isPaused);
-            }
+        if (!isPaused)
+        {
+            Time.timeScale = 0f;
+            isPaused = true;
+            StartCoroutine(pauseDelay());
+            print(isPaused);
         }
 
     }

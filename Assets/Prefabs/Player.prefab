@@ -267,7 +267,6 @@ MonoBehaviour:
   movementInput: {x: 0, y: 0}
   shootingPoint: {fileID: 1010552491898045015}
   bulletPrefab: {fileID: 4400154881682536643, guid: d6d6b76e49187c441a147da6af2074ac, type: 3}
-  isPaused: 0
   pauseMenu: {fileID: 6431286996778286944}
   Shoot: {fileID: 8645325855912902547, guid: d99554d17bc361d41acad757e64c165d, type: 3}
   ren: {fileID: 835019587378591380}
@@ -333,7 +332,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 915854244963425165}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: Pause
+        m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -345,6 +344,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: e5c22549-ed71-46f0-83c4-39d6b3911118
     m_ActionName: 'Gameplay/Pause[/Keyboard/escape,/DualSenseGamepadHID/start,/Keyboard/enter]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 915854244963425165}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: DebugReset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 84a7bd39-7747-40a3-a999-32e549262d0b
+    m_ActionName: 'Gameplay/Reset Scene and Score (DEBUG)[/Keyboard/0]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay

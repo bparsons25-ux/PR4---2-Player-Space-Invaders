@@ -24,9 +24,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Pause",
+                    "name": "Restart",
                     "type": "Button",
                     "id": "e5c22549-ed71-46f0-83c4-39d6b3911118",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reset Scene and Score (DEBUG)",
+                    "type": "Button",
+                    "id": "84a7bd39-7747-40a3-a999-32e549262d0b",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -172,8 +181,8 @@
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard",
-                    "action": "Pause",
+                    "groups": ";Keyboard;Arrows",
+                    "action": "Restart",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -184,18 +193,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Pause",
+                    "action": "Restart",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "27431bd6-2203-4acc-b263-eacafcf10a34",
-                    "path": "<Keyboard>/enter",
+                    "id": "b224c501-647a-4f3d-893a-2ccec3a1277f",
+                    "path": "<Keyboard>/0",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Arrows",
-                    "action": "Pause",
+                    "groups": ";Keyboard;Arrows",
+                    "action": "Reset Scene and Score (DEBUG)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac5b4f1c-f2ff-49bc-a905-27341c95c404",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Scene and Score (DEBUG)",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
