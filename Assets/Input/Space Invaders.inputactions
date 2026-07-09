@@ -56,7 +56,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "d0a21879-7313-4d0a-9eb0-f4f6d9bd8a16",
+                    "id": "cd46694b-3f70-4713-b10f-85ec75125180",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -89,7 +89,7 @@
                 },
                 {
                     "name": "Right",
-                    "id": "5886e5cc-559e-4923-b6b0-1908552dbe34",
+                    "id": "5c898568-8f72-47e2-bcb7-f6a8c8c1fbe1",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
@@ -100,7 +100,7 @@
                 },
                 {
                     "name": "Left",
-                    "id": "ddf2f928-52c5-4064-b2cf-04d81a4abaa4",
+                    "id": "95fb1063-23db-46c2-b58b-c5b6e704e82a",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
@@ -181,7 +181,18 @@
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard;Arrows",
+                    "groups": ";Keyboard",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d58077ab-215b-4be6-84e1-8fedca0cd353",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Arrows",
                     "action": "Restart",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -199,7 +210,7 @@
                 },
                 {
                     "name": "",
-                    "id": "b224c501-647a-4f3d-893a-2ccec3a1277f",
+                    "id": "93bddb9e-b380-4f27-b04e-8a2b4292adf9",
                     "path": "<Keyboard>/0",
                     "interactions": "",
                     "processors": "",

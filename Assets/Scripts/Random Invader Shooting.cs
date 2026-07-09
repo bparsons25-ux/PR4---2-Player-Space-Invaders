@@ -18,16 +18,19 @@ public class RandomInvaderShooting : MonoBehaviour
 
     public void Update()
     {
-        shootTimer = shootTimer + Time.deltaTime;
-
-        if (shootTimer > randomWaitTime)
+        if (PlayerInputHandler.gameHasStarted == true)
         {
-            Instantiate(bulletPrefab, enemyPositions[enemyNumber].transform.position, transform.rotation);
-            enemyNumber = Random.Range(1, 10);
+            shootTimer = shootTimer + Time.deltaTime;
 
-            randomWaitTime = Random.Range(3f, 5f);
-            shootTimer = 0f;
+            if (shootTimer > randomWaitTime)
+            {
+                Instantiate(bulletPrefab, enemyPositions[enemyNumber].transform.position, transform.rotation);
+                enemyNumber = Random.Range(1, 10);
 
+                randomWaitTime = Random.Range(3f, 5f);
+                shootTimer = 0f;
+
+            }
         }
     }
 
